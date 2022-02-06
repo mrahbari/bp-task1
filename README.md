@@ -7,7 +7,7 @@
 
 [API Test in PHPUnit Video](https://loom.com/bp-task1/public/docs/)
 
-[API Documentation](https://mrahbari.github.io/bp-task1/public/docs/)
+[API Documentation](https://github.com/mrahbari/bp-task1/blob/main/public/docs/)
 
 
 ## Requirements
@@ -56,6 +56,7 @@ Different forms of writing the test unit had been written with comments.
                     bp_task1_db
             a2) import your sql database from below address
                 database/sql/bp_task1_db.sql.zip
+                
 
         -------------------------------------------------
 
@@ -67,7 +68,9 @@ Different forms of writing the test unit had been written with comments.
                 $ php artisan db:seed
     
 3- Import POSTMAN collection, so you can easily see all the tested apis:
-    [docs/postman/bp-task1.postman_collection.json]
+
+[Postman Collection](https://github.com/mrahbari/bp-task1/blob/main/docs/postman/bp-task1.postman_collection.json)
+
 
 # Via Docker
 
