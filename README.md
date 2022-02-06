@@ -3,9 +3,9 @@
 # BP PHP Technical Test #1
 
 ## APP Demo Videos
-[API Test Via Postman Video](https://loom.com/bp-task1/public/docs/)
+[API Test Via Postman Video](https://www.loom.com/share/c499f5f23df24bffbd238f90cd2a796a)
 
-[API Test in PHPUnit Video](https://loom.com/bp-task1/public/docs/)
+[API Test in PHPUnit Video](https://www.loom.com/share/7cadf50755804241980bac7b92eedba8)
 
 [API Documentation](https://github.com/mrahbari/bp-task1/blob/main/public/docs/)
 
