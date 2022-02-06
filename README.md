@@ -108,23 +108,23 @@ docker-compose exec -ti bp-task1 php artisan test
 ```
 
 ### Run the project and phpmyadmin
-[For Postman Url] (http://bp.local)
+[For Postman Url] (http://bp-task1.local)
 
-[PHPMyAdmin Url] (http://bp.local:8081)
+[PHPMyAdmin Url] (http://bp-task1.local:8081)
 
 
 ### Route lists In Project
 ```
-    +-------------------+--------------------------------------------------+-------------------------+
-    |  http://bp.local  |  GET|HEAD | api/{api_version}/countries          | Countries List          |
-    |  http://bp.local  |  GET|HEAD | api/{api_version}/countries/{id}     | Country Show            |
-    |  http://bp.local  |  GET|HEAD | api/{api_version}/users              | Users List With Filters |
-    |  http://bp.local  |  GET|HEAD | api/{api_version}/users/country      | Users List [Austrian]   |
-    |  http://bp.local  |  DELETE   | api/{api_version}/users/{id}         | Users Deelete           |
-    |  http://bp.local  |  GET|HEAD | api/{api_version}/users/{id}         | Users Show one          |
-    |  http://bp.local  |  PUT      | api/{api_version}/users/{id}/details | Users Details Update    |
-    |  http://bp.local  |  GET|HEAD | openapi                              | Api Docs                |
-    +-------------------+--------------------------------------------------+-------------------------+
+    +-------------------+--------------------------------------------------------+-------------------------+
+    |  http://bp-task1.local  |  GET|HEAD | api/{api_version}/countries          | Countries List          |
+    |  http://bp-task1.local  |  GET|HEAD | api/{api_version}/countries/{id}     | Country Show            |
+    |  http://bp-task1.local  |  GET|HEAD | api/{api_version}/users              | Users List With Filters |
+    |  http://bp-task1.local  |  GET|HEAD | api/{api_version}/users/country      | Users List [Austrian]   |
+    |  http://bp-task1.local  |  DELETE   | api/{api_version}/users/{id}         | Users Deelete           |
+    |  http://bp-task1.local  |  GET|HEAD | api/{api_version}/users/{id}         | Users Show one          |
+    |  http://bp-task1.local  |  PUT      | api/{api_version}/users/{id}/details | Users Details Update    |
+    |  http://bp-task1.local  |  GET|HEAD | openapi                              | Api Docs                |
+    +-------------------+--------------------------------------------------------+-------------------------+
 ```
 
 ## Thanks For Your Patience and attention :)
