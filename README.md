@@ -123,7 +123,7 @@ docker-compose exec -ti bp-task1 php artisan test
     |  http://bp-task1.local  |  DELETE   | api/{api_version}/users/{id}         | Users Deelete           |
     |  http://bp-task1.local  |  GET|HEAD | api/{api_version}/users/{id}         | Users Show one          |
     |  http://bp-task1.local  |  PUT      | api/{api_version}/users/{id}/details | Users Details Update    |
-    |  http://bp-task1.local  |  GET|HEAD | openapi                              | Api Docs                |
+    |  http://bp-task1.local  |  GET|HEAD | request-docs                         | Api Docs                |
     +-------------------+--------------------------------------------------------+-------------------------+
 ```
 

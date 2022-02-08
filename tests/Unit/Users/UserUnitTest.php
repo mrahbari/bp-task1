@@ -42,9 +42,9 @@ class UserUnitTest extends TestCase
      *
      * @return void
      */
-    public function test_model_has_a_row_in_user_detail_relation()
+    /*public function test_model_has_a_row_in_user_detail_relation()
     {
         $existRelation = method_exists(User::class, 'hasDetails');
         $this->assertTrue($existRelation, '"Has User Details" relation does not exist in user model.');
-    }
+    }*/
 }
